@@ -1,0 +1,7 @@
+name: numeric
+description: Numeric for Dart
+version: 0.0.1
+homepage: https://sudo.dog
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
