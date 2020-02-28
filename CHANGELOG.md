@@ -10,3 +10,8 @@
 ## 0.0.2
 
 - Add changelog
+
+## 0.1.0
+
+- Init version
+- Add evenly separate integer function
