@@ -1,4 +1,4 @@
-List<int> evenlySeprateInteger(int target, int length) {
+List<int> evenlySeparateInteger(int target, int length) {
   final int unit = (target / length).floor();
   final int consumed = unit * length;
   final int difference = target - consumed;
