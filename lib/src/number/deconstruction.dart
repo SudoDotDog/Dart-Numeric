@@ -8,5 +8,6 @@ List<int> evenlySeparateInteger(int target, int length) {
     final bool shouldAdd = i < difference;
     result.add(shouldAdd ? unit + 1 : unit);
   }
+
   return result;
 }
