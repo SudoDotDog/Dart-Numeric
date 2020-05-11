@@ -20,3 +20,9 @@
 
 -   Add Dynamic parse function
 -   Add String parse function
+
+## 1.0.0
+
+-   Add find list function
+-   Add util functions
+-   Add declaration

@@ -1,6 +1,6 @@
 name: numeric
 description: Numeric for Dart, provide calculation functions for daily usage.
-version: 0.2.0
+version: 1.0.0
 homepage: https://sudo.dog
 repository: https://github.com/SudoDotDog/Dart-Numberic
 
