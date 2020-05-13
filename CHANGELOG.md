@@ -26,3 +26,7 @@
 -   Add find list function
 -   Add util functions
 -   Add declaration
+
+## 1.0.1
+
+-   Add random string function feature
