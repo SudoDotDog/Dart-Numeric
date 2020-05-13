@@ -31,3 +31,9 @@ String randomPresent({
   final String value = actualTime.millisecondsSinceEpoch.toRadixString(36);
   return value.substring(0, SINGLE_BATCH_TIME_STRING_LENGTH);
 }
+
+String randomUnique({
+  DateTime time,
+}) {
+  return randomPresent(time: time) + randomString();
+}
