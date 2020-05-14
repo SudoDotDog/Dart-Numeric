@@ -26,7 +26,7 @@ String randomString({
 String randomPresent({
   DateTime time,
 }) {
-  final DateTime actualTime = time == null ? time : DateTime.now();
+  final DateTime actualTime = time != null ? time : DateTime.now();
 
   final String value = actualTime.millisecondsSinceEpoch.toRadixString(36);
   return value.substring(0, SINGLE_BATCH_TIME_STRING_LENGTH);

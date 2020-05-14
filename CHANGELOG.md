@@ -30,3 +30,7 @@
 ## 1.0.1
 
 -   Add random string function feature
+
+## 1.0.2
+
+-   Fix random default date
