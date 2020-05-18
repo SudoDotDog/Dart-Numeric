@@ -5,7 +5,11 @@ double tryParseNullDouble(dynamic target) {
   if (target is double) {
     return target;
   }
-  return double.tryParse(target);
+  if (target is int) {
+    final int integer = target;
+    return integer.toDouble();
+  }
+  return double.tryParse(target.toString());
 }
 
 int tryParseNullInt(dynamic target) {
@@ -15,7 +19,11 @@ int tryParseNullInt(dynamic target) {
   if (target is int) {
     return target;
   }
-  return int.tryParse(target);
+  if (target is double) {
+    final double doubleItem = target;
+    return doubleItem.toInt();
+  }
+  return int.tryParse(target.toString());
 }
 
 bool tryParseBoolean(dynamic target) {

@@ -38,3 +38,7 @@
 ## 1.0.3
 
 -   Add more dynamic parse feature
+
+## 1.0.4
+
+-   Fix int double parsing
