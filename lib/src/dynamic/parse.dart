@@ -1,4 +1,4 @@
-double tryParseNullDouble(dynamic target) {
+double? tryParseNullDouble(dynamic target) {
   if (target == null) {
     return null;
   }
@@ -12,7 +12,7 @@ double tryParseNullDouble(dynamic target) {
   return double.tryParse(target.toString());
 }
 
-int tryParseNullInt(dynamic target) {
+int? tryParseNullInt(dynamic target) {
   if (target == null) {
     return null;
   }
@@ -26,7 +26,7 @@ int tryParseNullInt(dynamic target) {
   return int.tryParse(target.toString());
 }
 
-bool tryParseBoolean(dynamic target) {
+bool? tryParseBoolean(dynamic target) {
   if (target == null) {
     return null;
   }
@@ -49,7 +49,7 @@ List<String> tryParseStringList(List<dynamic> target) {
   return result;
 }
 
-DateTime tryParseDateTime(dynamic target) {
+DateTime? tryParseDateTime(dynamic target) {
   if (target == null) {
     return null;
   }

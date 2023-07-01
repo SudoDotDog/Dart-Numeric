@@ -1,4 +1,4 @@
-String parseOptionalString(dynamic target) {
+String? parseOptionalString(dynamic target) {
   if (target is String) {
     if (target.length == 0) {
       return null;

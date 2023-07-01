@@ -24,7 +24,7 @@ String randomString({
 }
 
 String randomPresent({
-  DateTime time,
+  DateTime? time,
 }) {
   final DateTime actualTime = time != null ? time : DateTime.now();
 
@@ -33,7 +33,7 @@ String randomPresent({
 }
 
 String randomUnique({
-  DateTime time,
+  DateTime? time,
 }) {
   return randomPresent(time: time) + randomString();
 }

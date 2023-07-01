@@ -1,10 +1,10 @@
 import 'package:numeric/src/entity/declare.dart';
 import 'package:numeric/src/util.dart';
 
-T findFirstMatchedElement<T>(
+T? findFirstMatchedElement<T>(
   List<T> target,
   MatcherFunction<T> matcher, {
-  CloneFunction<T> cloneFunction,
+  CloneFunction<T>? cloneFunction,
 }) {
   final int length = target.length;
 
@@ -19,10 +19,10 @@ T findFirstMatchedElement<T>(
   return null;
 }
 
-T findLastMatchedElement<T>(
+T? findLastMatchedElement<T>(
   List<T> target,
   MatcherFunction<T> matcher, {
-  CloneFunction<T> cloneFunction,
+  CloneFunction<T>? cloneFunction,
 }) {
   final int length = target.length;
 
